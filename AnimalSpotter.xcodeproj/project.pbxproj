@@ -15,6 +15,9 @@
 		CEDCA58F22668BCF009EA535 /* AnimalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA58E22668BCF009EA535 /* AnimalsTableViewController.swift */; };
 		CEDCA59122668D0F009EA535 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA59022668D0F009EA535 /* LoginViewController.swift */; };
 		CEDCA59A226697BD009EA535 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCA599226697BD009EA535 /* APIController.swift */; };
+		D6BCA582229F6CD100AA0CB7 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCA581229F6CD100AA0CB7 /* Animal.swift */; };
+		D6BCA584229F6DC400AA0CB7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCA583229F6DC400AA0CB7 /* User.swift */; };
+		D6BCA586229F6E1C00AA0CB7 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCA585229F6E1C00AA0CB7 /* Bearer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CEDCA58E22668BCF009EA535 /* AnimalsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsTableViewController.swift; sourceTree = "<group>"; };
 		CEDCA59022668D0F009EA535 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CEDCA599226697BD009EA535 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		D6BCA581229F6CD100AA0CB7 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		D6BCA583229F6DC400AA0CB7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D6BCA585229F6E1C00AA0CB7 /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,9 @@
 		CEDCA5962266966C009EA535 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D6BCA581229F6CD100AA0CB7 /* Animal.swift */,
+				D6BCA585229F6E1C00AA0CB7 /* Bearer.swift */,
+				D6BCA583229F6DC400AA0CB7 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -168,11 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BCA586229F6E1C00AA0CB7 /* Bearer.swift in Sources */,
 				CEDCA59A226697BD009EA535 /* APIController.swift in Sources */,
 				CEDCA59122668D0F009EA535 /* LoginViewController.swift in Sources */,
 				CEDCA58D22668B98009EA535 /* AnimalDetailViewController.swift in Sources */,
 				CEDCA57B22668AB2009EA535 /* AppDelegate.swift in Sources */,
 				CEDCA58F22668BCF009EA535 /* AnimalsTableViewController.swift in Sources */,
+				D6BCA582229F6CD100AA0CB7 /* Animal.swift in Sources */,
+				D6BCA584229F6DC400AA0CB7 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
