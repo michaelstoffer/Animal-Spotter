@@ -120,7 +120,7 @@ class APIController {
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             if let response = response as? HTTPURLResponse,
-                response.statusCode != 401 {
+                response.statusCode == 401 {
                 completion(.failure(.badAuth))
                 return
             }
@@ -156,7 +156,7 @@ class APIController {
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
             if let response = response as? HTTPURLResponse,
-                response.statusCode != 401 {
+                response.statusCode == 401 {
                 completion(.failure(.badAuth))
                 return
             }
