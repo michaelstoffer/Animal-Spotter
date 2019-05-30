@@ -70,6 +70,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HCO-4c-Ipd"/>
                     </view>
+                    <connections>
+                        <outlet property="loginTypeSegmentedControl" destination="aW1-IY-ebQ" id="0dN-Lw-9ba"/>
+                        <outlet property="passwordTextField" destination="Vga-nG-cJ8" id="GHE-ry-7Dt"/>
+                        <outlet property="signInButton" destination="l8d-j0-sqF" id="K4a-ls-h2d"/>
+                        <outlet property="usernameTextField" destination="qpz-u1-zcQ" id="noZ-hx-7Z0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cdi-kT-dVo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
